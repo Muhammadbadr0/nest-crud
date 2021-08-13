@@ -1,0 +1,17 @@
+###  Get all messages 
+GET http://localhost:3000/messages
+
+
+###  Get a single message
+GET http://localhost:3000/messages/25
+
+### create a new message
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+	"content": "my third Message"
+}
+
+### Delete a single message
+DELETE http://localhost:3000/messages/25
